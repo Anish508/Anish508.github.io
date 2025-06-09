@@ -133,7 +133,7 @@ section:last-of-type .container {
 
 .section-subtitle {
   font-size: 1.5rem;
-  color: var(--grey-text);
+  color: #2f3e46;
   max-width: 60ch;
 }
 
@@ -198,7 +198,7 @@ section:last-of-type .container {
 
 .project-content p {
   font-size: 1.25rem;
-  color: var(--grey-text);
+  color: white;
   margin: 0.5rem 0;
   line-height: 135%;
 }
@@ -206,7 +206,7 @@ section:last-of-type .container {
 .project-title {
   margin-top: 0;
   margin-bottom: 1rem;
-  color: var(--shade-500);
+  color: #eaeaea;
   font-size: 1.5rem;
   text-transform: uppercase;
 }
@@ -240,6 +240,7 @@ section:last-of-type .container {
   color: var(--grey-text);
   margin: 1rem;
   border-radius: 0;
+  text-decoration:none;
 }
 
 .talk-card {
@@ -307,7 +308,7 @@ section:last-of-type .container {
 }
 
 .card-content {
-  background-color: var(--shade-100);
+  background-color: #eaeaea;
   padding-block: 1rem;
   height: 100%;
 }
