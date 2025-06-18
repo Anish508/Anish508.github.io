@@ -16,7 +16,7 @@
 }
 
 #loader h2{
-  font-size: 2.5vw;
+  font-size: 4vw;
   font-weight: bold;
   color: rgb(236, 229, 50);
   font-family: 'loader';
@@ -158,7 +158,7 @@ section:last-of-type .container {
 
 .section-subtitle {
   font-size: 1.5rem;
-  color: #2f3e46;
+  color:#8DBCC7;
   max-width: 60ch;
 }
 
@@ -360,6 +360,8 @@ section:last-of-type .container {
 }
 
 .contact-content .link-btn {
+  color: white;
+  background-color: black;
   border-radius: 0;
   margin: 1.5rem 0;
   display: block;
@@ -368,6 +370,8 @@ section:last-of-type .container {
 
 .links-container {
   flex: 0 1 300px;
+   color: white;
+  background-color: black;
 }
 
 .links-container h3 {
