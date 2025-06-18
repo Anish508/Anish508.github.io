@@ -34,3 +34,4 @@ function openModal6() {
 function closeModal6() {
   document.getElementById("popupModal6").classList.remove("active");
 }
+

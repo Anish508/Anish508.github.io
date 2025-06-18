@@ -4,6 +4,10 @@
 @import "../fontello/css/fontello.css";
 @import "./coffee.css";
 
+*{
+  text-decoration: none;
+  list-style: none;
+}
 body {
   margin: 0;
   padding: 3px;
@@ -91,7 +95,7 @@ nav {
   right: 0;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: var(--background-color);
+  background-color: #A4CCD9;
   transition: top 500ms;
 }
 
