@@ -348,6 +348,7 @@ header .animate-scroll {
   }
 }
 
+
 /* Loader Styles */
 #loader {
   position: fixed;
@@ -361,15 +362,9 @@ header .animate-scroll {
   transition: opacity 0.5s;
 }
 
-.spinner {
-  width: 60px;
-  height: 60px;
-  border: 6px solid #e0e0e0;
-  border-top: 6px solid #0078d7;
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  to { transform: rotate(360deg); }
+#loader-greeting {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0078d7;
+  letter-spacing: 2px;
 }

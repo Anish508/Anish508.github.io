@@ -32,10 +32,33 @@ loader();
  */
 window.addEventListener("load", function () {
   const loader = document.getElementById("loader");
-  if (loader) {
+  const greeting = document.getElementById("loader-greeting");
+  if (loader && greeting && window.gsap) {
+    gsap.fromTo(
+      greeting,
+      { y: 50, opacity: 0 },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 1,
+        ease: "power2.out",
+        onComplete: () => {
+          gsap.to(loader, {
+            opacity: 0,
+            duration: 0.5,
+            delay: 0.5,
+            onComplete: () => {
+              loader.style.display = "none";
+            },
+          });
+        },
+      }
+    );
+  } else if (loader) {
+    // fallback if GSAP not loaded
     loader.style.opacity = "0";
     setTimeout(() => {
       loader.style.display = "none";
-    }, 1500);
+    }, 500);
   }
 });
