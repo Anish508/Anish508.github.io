@@ -36,11 +36,12 @@ window.addEventListener("load", function () {
   if (loader && greeting && window.gsap) {
     gsap.fromTo(
       greeting,
-      { y: 50, opacity: 0 },
+      { y: 40, opacity: 0, scale: 0.95 },
       {
         y: 0,
         opacity: 1,
-        duration: 1,
+        scale: 1,
+        duration: 0.8,
         ease: "power2.out",
         onComplete: () => {
           gsap.to(loader, {

@@ -350,6 +350,7 @@ header .animate-scroll {
 
 
 /* Loader Styles */
+/* Loader Styles */
 #loader {
   position: fixed;
   z-index: 9999;
@@ -360,11 +361,16 @@ header .animate-scroll {
   align-items: center;
   justify-content: center;
   transition: opacity 0.5s;
+  pointer-events: none;
 }
 
 #loader-greeting {
-  font-size: 2.5rem;
+  font-size: clamp(2rem, 6vw, 3rem);
   font-weight: 700;
   color: #0078d7;
   letter-spacing: 2px;
+  text-align: center;
+  margin: 0;
+  user-select: none;
+  line-height: 1.2;
 }
