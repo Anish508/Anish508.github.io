@@ -351,26 +351,36 @@ header .animate-scroll {
 
 /* Loader Styles */
 /* Loader Styles */
-#loader {
+/* #loader {
   position: fixed;
   z-index: 9999;
   top: 0; left: 0;
   width: 100vw; height: 100vh;
   background: #fff;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: opacity 0.5s;
   pointer-events: none;
 }
 
-#loader-greeting {
-  font-size: clamp(2rem, 6vw, 3rem);
-  font-weight: 700;
+#loader-percentage {
+  font-size: clamp(2.5rem, 8vw, 4rem);
+  font-weight: 800;
   color: #0078d7;
+  margin-bottom: 1rem;
+  text-align: center;
+  user-select: none;
+}
+
+#loader-greeting {
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  font-weight: 700;
+  color: #222;
   letter-spacing: 2px;
   text-align: center;
   margin: 0;
   user-select: none;
   line-height: 1.2;
-}
+} */
